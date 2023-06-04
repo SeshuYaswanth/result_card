@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+}
+.container {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+/* start of main card */
+.main_card {
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* start of result card */
+.result_card {
+    background-color: hsl(241, 81%, 54%);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.result_card h3 {
+    color: hsla(0, 0%, 100%, 0.7);
+    font-size: 18px;
+    margin: 30px 0 0 0;
+}
+.result_card .score_circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    margin: 20px 0 0 0;
+}
+.result_card .score_circle p {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin: 20% 0 0 0;
+}
+.result_card .score_circle p #main_score {
+    font-size: 40px;
+    font-weight: 800;
+}
+.result_card .score_circle p #overall {
+    font-size: 12px;
+    font-weight: 100;
+    color: hsla(0, 0%, 100%, 0.7);
+}
+.result_card h2 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin: 20px 0 0 0;
+}
+.result_card #result_para {
+    color: hsla(0, 0%, 100%, 0.7);
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+    width: 155px;
+    margin: 20px 0 30px 0;
+}
+/* end of result card */
+
+/* summary section */
+.summary_section {
+    margin: 30px 30px 0 30px;
+}
+.summary_section h2 {
+    font-size: 18px;
+}
+.summary_section .subjects {
+    margin: 20px 0 0 0;
+}
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.2);
+}
+#sub_name1 {
+    color: hsl(0, 100%, 67%);
+}
+.memory {
+    background-color: hsl(39, 100%, 56%, 0.2);
+}
+#sub_name2 {
+    color: hsl(39, 100%, 56%);
+}
+.verbal {
+    background-color: hsl(166, 100%, 37%, 0.2);
+}
+#sub_name3 {
+    color: hsl(166, 100%, 37%);
+}
+.visual {
+    background-color: hsl(234, 85%, 45%, 0.2);
+}
+#sub_name4 {
+    color: hsl(234, 85%, 45%);
+}
+.reaction, .memory, .verbal, .visual {
+    width: 250px;
+    height: 40px;
+    font-size: 14px;
+    margin: 10px 0 0 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#svg {
+    font-size: 18px;
+}
+#scores {
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+#hundread {
+    color: hsla(0, 0%, 100%, 1);
+}
+#continue {
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 30px 0 0 0;
+    cursor: pointer;
+}
+
+
+.attribution {
+    text-align: center;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <!-- Icon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <!-- Title -->
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- link to css -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- start of main -->
+  <main>
+    <!-- start of container -->
+    <div class="container">
+      <!-- start of main_card -->
+      <div class="main_card">
+        <!-- start of result card -->
+        <div class="result_card">
+          <h3>Your Result</h3>
+          <!-- score circle -->
+          <div class="score_circle">
+            <p><span id="main_score">76</span><br><span id="overall">of 100</span></p>
+          </div>
+          <!-- end of score circle -->
+          <h2>Great</h2>
+          <p id="result_para">You scored higher 65% of the people who haven taken these tests.</p>
+        </div>
+        <!-- end of result card -->
+
+        <!-- start of summary section -->
+        <div class="summary_section">
+          <h2>Summary</h2>
+          <!-- start of subjects -->
+          <div class="subjects">
+            <!-- reaction -->
+            <div class="reaction">
+              <p id="svg"><img src="./assets/images/icon-reaction.svg" alt="reaction"></p>
+              <p id="sub_name1">Reaction</p>
+              <p id="scores">80 / <span id="hundread">100</span></p>
+            </div>
+            <!-- end of reaction -->
+
+            <!-- memory -->
+            <div class="memory">
+              <p id="svg"><img src="./assets/images/icon-memory.svg" alt="memory"></p>
+              <p id="sub_name2">Memory</p>
+              <p id="scores">92 / <span id="hundread">100</span></p>
+            </div>
+            <!-- end of memory -->
+
+            <!-- verbal -->
+            <div class="verbal">
+              <p id="svg"><img src="./assets/images/icon-verbal.svg" alt="verbal"></p>
+              <p id="sub_name3">Verbal</p>
+              <p id="scores">61 / <span id="hundread">100</span></p>
+            </div>
+            <!-- end of verbal -->
+
+            <!-- visual -->
+            <div class="visual">
+              <p id="svg"><img src="./assets/images/icon-visual.svg" alt="visual" id="svg"></p>
+              <p id="sub_name4">Visual</p>
+              <p id="scores">72 / <span id="hundread">100</span></p>
+            </div>
+            <!-- end of visual -->
+            <button id="continue">Continue</button>
+          </div>
+          <!-- end of subjects -->
+        </div>
+        <!-- end of summary -->
+      </div>
+      <!-- end of main_card -->
+    </div>
+    <!-- end of container -->
+  </main>
+
+
+<footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/SeshuYaswanth" target="_blank">@SeshuYaswanth</a>.
+  </div>
+</footer>
+
+
+</body>
+
+<script src="./index.js"></script>
+</html>
